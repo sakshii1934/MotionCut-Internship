@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Product Page </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main-wrap">
+        <div class="product">
+            <div class="image-gallery">
+                <img src="/Project3/images/image2.png" alt="" id="productImg">
+                <div class="controls">
+                    <span class="btn active"></span>
+                    <span class="btn"></span>
+                    <span class="btn"></span>
+                </div>
+            </div>
+            <div class="product-details">
+                <div class="details">
+                    <h2>Comfy Chair</h2>
+                    <h3>$100</h3>
+                    <h4>35% OFF</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum nostrum quisquam doloribus
+                        repellendus laborum reprehenderit dicta, non eum praesentium repudiandae possimus aut atque,
+                        delectus, alias debitis! Et commodi doloribus sint?</p>
+                </div>
+                <div class="sizes">
+                    <form class="form">
+                        <div class="select-size">
+                            <h3>Sizes:</h3>
+                            <label for="sm">
+                                <input type="radio" name="sizes" id="sm">
+                                <span>S</span>
+                            </label>
+                            <label for="m">
+                                <input type="radio" name="sizes" id="m">
+                                <span>M</span>
+                            </label>
+                            <label for="lg">
+                                <input type="radio" name="sizes" id="lg">
+                                <span>S</span>
+                            </label>
+                            <label for="xl">
+                                <input type="radio" name="sizes" id="xl">
+                                <span>XL</span>
+                            </label>
+                            <label for="xxl">
+                                <input type="radio" name="sizes" id="xxl">
+                                <span>XXl</span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="colors">
+                    <form class="form">
+                        <div class="select-colors">
+                            <h3>Color:</h3>
+                            <label for="red">
+                                <input type="radio" name="colors" id="red">
+                                <span class="color-1"></span>
+                            </label>
+                            <label for="green">
+                                <input type="radio" name="colors" id="green">
+                                <span class="color-2"></span>
+                            </label>
+                            <label for="blue">
+                                <input type="radio" name="colors" id="blue">
+                                <span class="color-3"></span>
+                            </label>
+                            <label for="yellow">
+                                <input type="radio" name="colors" id="yellow">
+                                <span class="color-4"></span>
+                            </label>
+                        </div>
+                    </form>
+                </div>
+                <div class="quantity">
+                    <div class="select-quantity">
+                        <h3>Quantity:</h3>
+                        <input type="number" id="quantityInput" value="1" min="1">
+                    </div>
+                </div>
+                <div class="sub-btn">
+                    <button class="submit">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
